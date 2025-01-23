@@ -1,0 +1,16 @@
+css
+
+.slide {
+    position: absolute;
+    top: 0;
+    widdth: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide p {
+    color: white;
+    font-size: 2em;
+}
