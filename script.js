@@ -3,9 +3,9 @@ let currentSlide = 0;
 
 function showSlide(n) {
   slides.forEach(slide => {
-    slide.style.display = 'none';
+    slide.classList.remove('active');
   });
-  slides[n].style.display = 'block';
+  slides[n].classList.add('active');
   currentSlide = n;
 }
 
@@ -18,6 +18,9 @@ function nextSlide() {
 function prevSlide() {
   showSlide((currentSlide - 1 + slides.length) % slides.length);
 }
+
+//Mostrar o primeiro slide inicialmente
+showDlide(0);
 
 //Iniciar a apresentação automaticamente (a cada 15 segundos)
 setInterval(nextSlide, 15000);
