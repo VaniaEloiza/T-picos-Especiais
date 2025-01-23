@@ -14,3 +14,7 @@ css
     color: white;
     font-size: 2em;
 }
+
+body {
+    background-image: url("assets/Existencialismo.jpg");
+}
