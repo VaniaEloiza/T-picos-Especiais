@@ -1,17 +1,29 @@
-css
-
-.imagem-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.imagem-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.6;
+.slide h1 {
+  color: white;
+  font-size: 2em;
+}
+
+/* Slide */
+.slide-1 {
+  background-image: url("assets/Existencialismo.jpg");
+  opacity: 0.5;
+}
+
+/* Slide 2 */
+.slide-2 {
+  background-image: url("assets/0-4.jpg");
+  opacity: 0.5;
+  background-blend-mode: multiply;
 }
