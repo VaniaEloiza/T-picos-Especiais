@@ -4,15 +4,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  display: block;
+  transition: opacity 0.10s ease-in-out;
 }
 
-.slide h1 {
-  color: rgb(66, 34, 34);
-  font-size: 2em;
+.slide.active {
+  display: block;
 }
 
 .slide-1 {
