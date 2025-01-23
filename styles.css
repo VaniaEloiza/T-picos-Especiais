@@ -16,5 +16,20 @@ css
 }
 
 body {
+    font-family: Arial, sans-serif;
     background-image: url("assets/Existencialismo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.content {
+    background-color: rgba(0, 0,0, 0.5);
+    padding: 20px;
+}
+
+.imagem-transparente {
+    background-image: url("assets/Existencialismo.jpg");
+    opacity: 0.3;
+    background-blend-mode:multiply;
 }
