@@ -20,7 +20,7 @@ function prevSlide() {
 }
 
 //Mostrar o primeiro slide inicialmente
-showDlide(0);
+showSlide(0);
 
 //Iniciar a apresentação automaticamente (a cada 15 segundos)
 setInterval(nextSlide, 15000);
