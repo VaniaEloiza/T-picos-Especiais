@@ -16,7 +16,7 @@ function nextSlide() {
 
 //Mostrar o slide anterior
 function prevSlide() {
-  showSlide((currentSlide - 1 + slides.length) % slides.length);
+  showSlide((currentSlide - 1 + slides.length) %slides.length);
 }
 
 //Mostrar o primeiro slide inicialmente
