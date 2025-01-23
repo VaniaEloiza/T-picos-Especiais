@@ -1,35 +1,17 @@
 css
 
-.slide {
+.imagem-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagem-container img {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.slide p {
-    color: white;
-    font-size: 2em;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-image: url("assets/Existencialismo.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-}
-.content {
-    background-color: rgba(0, 0,0, 0.5);
-    padding: 20px;
-}
-
-.imagem-transparente {
-    background-image: url("assets/Existencialismo.jpg");
-    opacity: 0.3;
-    background-blend-mode:multiply;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
 }
