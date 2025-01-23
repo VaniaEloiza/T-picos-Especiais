@@ -1,20 +1,22 @@
-const slides = document.querySelectorAll(".slide");
+const slides = document.querySelectorAll('.slide');
 let currentSlide = 0;
 
 function showSlide(n) {
-  slides[currentSlide].style.display = "none";
-  currentSlide = (n + slides.length) % slides.length;
-  slides[currentSlide].style.display = "block";
+  slides.forEach(slide => {
+    slide.style.display = 'none';
+  });
+  slides[n].style.display = 'block';
+  currentSlide = n;
 }
 
 //Mostrar o próximo slide
 function nextSlide() {
-  showSlide(currentSlide + 1);
+  showSlide((currentSlide + 1) %slides.length);
 }
 
 //Mostrar o slide anterior
 function prevSlide() {
-  showSlide(currentSlide - 1);
+  showSlide((currentSlide - 1 + slides.length) % slides.length);
 }
 
 //Iniciar a apresentação automaticamente (a cada 15 segundos)
