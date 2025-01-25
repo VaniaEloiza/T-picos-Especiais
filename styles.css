@@ -4,30 +4,41 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  opacity:0;
-  background-size: contain;
+  opacity: 0;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: opacity o.5;
+  transition: opacity o.5 ease-in-out;
 }
 
 .slide.active {
   opacity: 0.6;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    background-size: contain;
+  }
 }
 
 .slide-1 {
   background-image: url("assets/Existencialismo.jpg");
+  background-size: contain;
 }
 
 .slide-2 {
