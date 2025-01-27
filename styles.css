@@ -49,6 +49,10 @@ html {
   background-image: url(assets/família.jpg);
 }
 
+.slide-4 {
+  background-image: url(assets/elementos.jpg)
+}
+
 button {
   position: absolute;
   bottom: 10%;
