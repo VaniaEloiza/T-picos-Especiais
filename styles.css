@@ -50,7 +50,8 @@ html {
 }
 
 .slide-4 {
-  background-image: url(assets/elementos.jpg)
+  background-image: url(assets/elementos.jpg);
+  background-size: contain;     
 }
 
 button {
