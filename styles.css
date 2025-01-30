@@ -62,6 +62,13 @@ html {
   background-color: 3c0908;
 }
 
+.slide-6 {
+background-image: url(assets/educação.jpg);
+max-width: 100%;
+max-height: 100%;
+background-size: contain;
+}
+
 button {
   position: absolute;
   bottom: 10%;
