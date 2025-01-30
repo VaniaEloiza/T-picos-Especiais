@@ -56,6 +56,8 @@ html {
 
 .slide-5 {
   background-image: url(assets/4\ corpos.jpg);
+  background-size: contain;
+  background-color: 3c0908;
 }
 
 button {
