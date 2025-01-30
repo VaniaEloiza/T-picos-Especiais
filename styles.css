@@ -54,6 +54,10 @@ html {
   background-size: contain;     
 }
 
+.slide-5 {
+  background-image: url(assets/4\ corpos.jpg);
+}
+
 button {
   position: absolute;
   bottom: 10%;
